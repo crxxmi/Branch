@@ -1,3 +1,5 @@
+def subtract_two_sets(list1,list2):
+    return [x for x in list1 if x not in list2]
 from myfunc2 import subtract_two_sets
 
 def main():
@@ -10,6 +12,5 @@ def main():
 
     except ValueError:
         print("กรุณากรอกตัวเลขให้ถูกต้อง!")
-
 if __name__ == "__main__":
     main()
